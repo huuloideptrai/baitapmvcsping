@@ -8,6 +8,12 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<style>
+td a button:hover {
+      background-color:red;
+      transition: 0.7s;
+  }
+   </style>
 <body>
 	<a href="add">Thêm sản phẩm</a>
 	<table>
