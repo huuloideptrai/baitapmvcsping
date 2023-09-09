@@ -11,7 +11,7 @@
 </head>
 <body>
 
-	<h1>Sign up Account</h1>
+	<h1>Thêm sản phẩm</h1>
 
 	<form:form action="save" method="post" modelAttribute="product">
 		<table>

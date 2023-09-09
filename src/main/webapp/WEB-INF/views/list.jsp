@@ -9,13 +9,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="add">dcdkjb</a>
+	<a href="add">Thêm sản phẩm</a>
 	<table>
 		<thead>
 			<tr>
 				<th>ID</th>
-				<th>Name</th>
-				<th>Price</th>
+				<th>Tến sản phẩm</th>
+				<th>Giá sản phẩm</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -24,9 +24,9 @@
 					<td>${product.code}</td>
 					<td>${product.name}</td>
 					<td>${product.price}</td>
-					<td><a href="view?code=${product.code}">view</a></td>
-					<td><a href="update?code=${product.code}">edit</a></td>
-					<td><a href="delete?code=${product.code}">delete</a></td>
+					<td><a href="view?code=${product.code}"><button>Xem chi tiết</button></a></td>
+					<td><a href="update?code=${product.code}"><button>Chỉnh sửa sản phẩm</button></a></td>
+					<td><a href="delete?code=${product.code}"><button>Xóa sản phẩm</button></a></td>
 				</tr>
 			</c:forEach>
 		</tbody>
