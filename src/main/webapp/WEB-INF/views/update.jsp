@@ -31,15 +31,23 @@
 						cssStyle="color:red" /></td>
 			</tr>
 			<tr>
+				<td><form:label path="image">Link Ảnh: </form:label></td>
+				<td><form:input path="image" /> <form:errors path="image"
+						cssStyle="color:red" /></td>
+			</tr>
+			<tr>
 				<c:if test="${not empty error}">
                 Message: ${error}
             </c:if>
 				<c:if test="${not empty success}">
                 Message: ${success}
             </c:if>
+            <c:if test="${not empty success}">
+                Message: ${success}
+            </c:if>
 			</tr>
 			<tr>
-				<td><form:button>Submit</form:button></td>
+				<td><form:button>Xác nhận sửa</form:button></td>
 			</tr>
 		</table>
 	</form:form>
