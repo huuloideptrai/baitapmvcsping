@@ -4,14 +4,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Product Detail</title>
+    <title>sản phẩm</title>
 </head>
 <body>
-<h1>Product Detail</h1>
-<h2>${product.code}</h2>
+<h1>Thông tin sản phẩm</h1>
+<h2><img src="${product.image}"></h2>
 <h2>${product.name}</h2>
 <p>Price: ${product.price}</p>
 
-<a href="${pageContext.request.contextPath}/products">Back to Product List</a>
+<a href="${pageContext.request.contextPath}/products">Quay lại</a>
 </body>
 </html>

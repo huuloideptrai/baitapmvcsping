@@ -4,6 +4,22 @@ public class Product {
 	private int code;
 	private String name;
 	private float price;
+	private String image;
+	
+	
+	public Product(int code, String name, float price, String image) {
+		super();
+		this.code = code;
+		this.name = name;
+		this.price = price;
+		this.image = image;
+	}
+	public String getImage() {
+		return image;
+	}
+	public void setImage(String image) {
+		this.image = image;
+	}
 	public int getCode() {
 		return code;
 	}
@@ -22,12 +38,7 @@ public class Product {
 	public void setPrice(float price) {
 		this.price = price;
 	}
-	public Product(int i, String name, float price) {
-		super();
-		this.code = i;
-		this.name = name;
-		this.price = price;
-	}
+	
 	public Product() {
 		super();
 	}

@@ -23,13 +23,13 @@ public class ProductController {
 	@RequestMapping("/add")
 	public String processAddProductForm(@ModelAttribute("product") Product product) {
 		return "/home";
-	}
 
+	}
 	@GetMapping("/products")
 	public String list(Model model) {
 		List<Product> products = this.productService.fimAll();
 		model.addAttribute("products", products);
-		return "list";
+		return "list"; 
 	}
 
 	@PostMapping("/save")

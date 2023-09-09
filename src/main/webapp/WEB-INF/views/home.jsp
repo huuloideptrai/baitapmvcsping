@@ -26,10 +26,18 @@
 						cssStyle="color:red" /></td>
 			</tr>
 			<tr>
+				<td><form:label path="image">Link Ảnh: </form:label></td>
+				<td><form:input path="image" /> <form:errors path="price"
+						cssStyle="color:red" /></td>
+			</tr>
+			<tr>
 				<c:if test="${not empty error}">
                 Message: ${error}
             </c:if>
 				<c:if test="${not empty success}">
+                Message: ${success}
+            </c:if>
+            <c:if test="${not empty success}">
                 Message: ${success}
             </c:if>
 			</tr>
